@@ -11,12 +11,12 @@
         <a href="<?= base_url('pekerja') ?>"><i class="fa fa-users"></i> <span>Manajemen Pekerja</span></a>
       </li>
 
+            <li class="<?= $this->uri->segment(2) == 'prediksi' ? 'active' : '' ?>">
+        <a href="<?= site_url('prediksi') ?>"><i class="fa fa-line-chart"></i> <span>Prediksi Kebutuhan</span></a>
+      </li>
+      
       <li class="<?= $this->uri->segment(2) == 'jadwal' ? 'active' : '' ?>">
         <a href="<?= site_url('jadwal'); ?>"><i class="fa fa-calendar"></i> <span>Jadwal Pekerja</span></a>
-      </li>
-
-      <li class="<?= $this->uri->segment(2) == 'prediksi' ? 'active' : '' ?>">
-        <a href="<?= site_url('prediksi') ?>"><i class="fa fa-line-chart"></i> <span>Prediksi Kebutuhan</span></a>
       </li>
 
       <li>
